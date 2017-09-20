@@ -4,7 +4,7 @@ Attempt to use Clojure to write a mind map editor.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download from https://github.com/bigos/clomimap
 
 ## Usage
 
