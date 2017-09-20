@@ -1,6 +1,6 @@
 # clomimap
 
-FIXME: description
+Attempt to use Clojure to write a mind map editor.
 
 ## Installation
 
