@@ -1,0 +1,35 @@
+* Clomima
+
+Clojure mind map editor
+
+** design
+
+*** objects
+
+*** canvas
+
+**** vector
+
+**** refreshing
+
+**** GUI
+
+***** seesaw
+
+***** elements
+
+****** center
+
+******* cloud
+
+******* description
+
+****** links
+
+******* word(s)
+
+******* icons
+
+******* folding/scrolling
+
+******* cross links
