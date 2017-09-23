@@ -33,3 +33,29 @@ Clojure mind map editor
 ******* folding/scrolling
 
 ******* cross links
+
+
+** REPL
+
+Open Cider REPL
+~M-x cider-jack-in~
+
+** clj file
+
+Open ~*.clj~ file
+
+*** in clj file menu
+
++ go to CIDER Eval menu
++ select Load all project files
++ go to menu CIDER Interactions/REPL/Set REPL to this ns
++ evaluate -main function definition pressing C-M-x
+
+*** go to the REPL buffer
+and evaluate -main function
+
+#+BEGIN_EXAMPLE
+clomimap.core> (-main)
+Hello, World!
+nil
+#+END_EXAMPLE
