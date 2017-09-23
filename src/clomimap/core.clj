@@ -1,10 +1,10 @@
 (ns clomimap.core
-  (:use seesaw.core
-   seesaw.graphics
-   seesaw.color
-   seesaw.dev                      ;if you comment it out you can use (show-options)
+  (:use [clojure.pprint :only [cl-format]]
    seesaw.chooser
-   [clojure.pprint :only [cl-format]])
+   seesaw.color
+   seesaw.core
+   seesaw.dev                      ;if you comment it out you can use (show-options)
+   seesaw.graphics)
 
   (:gen-class))
 
