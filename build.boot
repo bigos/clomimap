@@ -1,7 +1,7 @@
 (def project 'clomimap)
 (def version "0.1.0-SNAPSHOT")
 
-(set-env! :resource-paths #{"resources" "src"}
+(set-env! :resource-paths #{"resources" "src" "target"}
           :source-paths   #{"test"}
           :dependencies   '[[org.clojure/clojure "1.8.0"]
                             [adzerk/boot-test "RELEASE" :scope "test"]
