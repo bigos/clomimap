@@ -33,3 +33,13 @@ Clojure mind map editor
 ******* folding/scrolling
 
 ******* cross links
+
+** REPL
+
+*** open the build.boot file
+*** start REPL
+*** visit the build.boot buffer and load the project
+munu Cider Eval/Load all project files
+*** visit core.clj file and
+**** evaluate ns
+**** evaluate main
