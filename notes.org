@@ -40,6 +40,9 @@ Clojure mind map editor
 *** start REPL
 *** visit the build.boot buffer and load the project
 munu Cider Eval/Load all project files
+
+the system should respond with
+Loaded 1 namespaces
 *** visit core.clj file and
 **** evaluate ns
 **** evaluate main

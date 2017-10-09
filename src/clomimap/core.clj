@@ -1,10 +1,8 @@
 (ns clomimap.core
-  (:use seesaw.core))
+  (:require [seesaw.core :as sc]))
 
 (defn -main [& args]
-  (invoke-later
-   (-> (frame :title "Hello",
-              :content "Hello, Seesaw",
-              :on-close :exit)
-       pack!
-       show!)))
+
+  (let [f (sc/frame :content (sc/label :text "Hello World!"))]
+    (sc/pack! f)
+    (sc/show! f)))
