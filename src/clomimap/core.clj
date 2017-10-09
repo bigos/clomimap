@@ -2,7 +2,4 @@
   (:require [seesaw.core :as sc]))
 
 (defn -main [& args]
-
-  (let [f (sc/frame :content (sc/label :text "Hello World!"))]
-    (sc/pack! f)
-    (sc/show! f)))
+  (-> (sc/frame :title "Hello" :content "Hi there") sc/pack! sc/show!))
